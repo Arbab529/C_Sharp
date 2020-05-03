@@ -21,5 +21,26 @@ namespace Phonebook
         {
             this.Close();
         }
+
+        private void InsertItem_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void ViewItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EditItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaGradientButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

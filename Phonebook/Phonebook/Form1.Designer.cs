@@ -36,6 +36,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
+            this.Name1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Contact_Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -70,6 +72,7 @@
             this.InsertItem.Name = "InsertItem";
             this.InsertItem.Size = new System.Drawing.Size(180, 26);
             this.InsertItem.Text = "Insert";
+            this.InsertItem.Click += new System.EventHandler(this.InsertItem_Click);
             // 
             // ViewItem
             // 
@@ -77,6 +80,7 @@
             this.ViewItem.Name = "ViewItem";
             this.ViewItem.Size = new System.Drawing.Size(180, 26);
             this.ViewItem.Text = "View";
+            this.ViewItem.Click += new System.EventHandler(this.ViewItem_Click);
             // 
             // EditItem
             // 
@@ -84,6 +88,7 @@
             this.EditItem.Name = "EditItem";
             this.EditItem.Size = new System.Drawing.Size(180, 26);
             this.EditItem.Text = "Edit";
+            this.EditItem.Click += new System.EventHandler(this.EditItem_Click);
             // 
             // label1
             // 
@@ -104,7 +109,11 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Name1,
+            this.Contact_Number});
             this.dataGridView1.Location = new System.Drawing.Point(12, 52);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(409, 420);
@@ -137,6 +146,17 @@
             this.gunaGradientButton1.TabIndex = 3;
             this.gunaGradientButton1.Text = "Save";
             this.gunaGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaGradientButton1.Click += new System.EventHandler(this.gunaGradientButton1_Click);
+            // 
+            // Name1
+            // 
+            this.Name1.HeaderText = "Name";
+            this.Name1.Name = "Name1";
+            // 
+            // Contact_Number
+            // 
+            this.Contact_Number.HeaderText = "Contact Number";
+            this.Contact_Number.Name = "Contact_Number";
             // 
             // Form1
             // 
@@ -171,6 +191,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Contact_Number;
     }
 }
 
