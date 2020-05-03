@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.modeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.InsertItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,10 +37,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.gunaGradientButton1 = new Guna.UI.WinForms.GunaGradientButton();
+            this.database1DataSet = new Phonebook.Database1DataSet();
+            this.tableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tableTableAdapter = new Phonebook.Database1DataSetTableAdapters.TableTableAdapter();
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contactNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contactNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Name1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Contact_Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -109,11 +118,16 @@
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn,
+            this.contactNameDataGridViewTextBoxColumn,
+            this.contactNumberDataGridViewTextBoxColumn,
             this.Name1,
             this.Contact_Number});
+            this.dataGridView1.DataSource = this.tableBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(12, 52);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(409, 420);
@@ -148,15 +162,49 @@
             this.gunaGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaGradientButton1.Click += new System.EventHandler(this.gunaGradientButton1_Click);
             // 
+            // database1DataSet
+            // 
+            this.database1DataSet.DataSetName = "Database1DataSet";
+            this.database1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tableBindingSource
+            // 
+            this.tableBindingSource.DataMember = "Table";
+            this.tableBindingSource.DataSource = this.database1DataSet;
+            // 
+            // tableTableAdapter
+            // 
+            this.tableTableAdapter.ClearBeforeFill = true;
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            // 
+            // contactNameDataGridViewTextBoxColumn
+            // 
+            this.contactNameDataGridViewTextBoxColumn.DataPropertyName = "ContactName";
+            this.contactNameDataGridViewTextBoxColumn.HeaderText = "ContactName";
+            this.contactNameDataGridViewTextBoxColumn.Name = "contactNameDataGridViewTextBoxColumn";
+            // 
+            // contactNumberDataGridViewTextBoxColumn
+            // 
+            this.contactNumberDataGridViewTextBoxColumn.DataPropertyName = "ContactNumber";
+            this.contactNumberDataGridViewTextBoxColumn.HeaderText = "ContactNumber";
+            this.contactNumberDataGridViewTextBoxColumn.Name = "contactNumberDataGridViewTextBoxColumn";
+            // 
             // Name1
             // 
             this.Name1.HeaderText = "Name";
             this.Name1.Name = "Name1";
+            this.Name1.Visible = false;
             // 
             // Contact_Number
             // 
             this.Contact_Number.HeaderText = "Contact Number";
             this.Contact_Number.Name = "Contact_Number";
+            this.Contact_Number.Visible = false;
             // 
             // Form1
             // 
@@ -173,9 +221,12 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tableBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -191,6 +242,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private Guna.UI.WinForms.GunaGradientButton gunaGradientButton1;
+        private Database1DataSet database1DataSet;
+        private System.Windows.Forms.BindingSource tableBindingSource;
+        private Database1DataSetTableAdapters.TableTableAdapter tableTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn contactNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn contactNumberDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Name1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Contact_Number;
     }
