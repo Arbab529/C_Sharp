@@ -1,0 +1,12 @@
+D:\C#\Phonebook\Phonebook\bin\Debug\Phonebook.exe.config
+D:\C#\Phonebook\Phonebook\bin\Debug\Phonebook.exe
+D:\C#\Phonebook\Phonebook\bin\Debug\Phonebook.pdb
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.csprojAssemblyReference.cache
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.Form1.resources
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.Properties.Resources.resources
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.GenerateResource.cache
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.CoreCompileInputs.cache
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.exe
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
+D:\C#\Phonebook\Phonebook\bin\Debug\Guna.UI.dll
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.CopyComplete
