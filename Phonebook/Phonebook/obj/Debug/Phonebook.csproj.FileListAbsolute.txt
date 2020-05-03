@@ -10,3 +10,7 @@ D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.exe
 D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.pdb
 D:\C#\Phonebook\Phonebook\bin\Debug\Guna.UI.dll
 D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.csproj.CopyComplete
+D:\C#\Phonebook\Phonebook\bin\Debug\Database1.mdf
+D:\C#\Phonebook\Phonebook\bin\Debug\Database1_log.ldf
+D:\C#\Phonebook\Phonebook\bin\Debug\Bunifu_UI_v1.52.dll
+D:\C#\Phonebook\Phonebook\obj\Debug\Phonebook.Splashscreen.resources
