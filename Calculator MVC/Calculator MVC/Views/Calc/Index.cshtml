@@ -1,0 +1,38 @@
+﻿@model Calculator_MVC.Models.calc
+@{
+    ViewBag.Title = "Index";
+}
+
+<html>
+<head></head>
+<body>
+    <h2>Simple Calculator Using MVC</h2>
+    <div class="row">
+        @using (Html.BeginForm("/Index", "calc", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="no1">Number 1 : </label>
+                <input type="text" class="form-control" id="no1" name="no1" value="@Model.no1" />
+            </div>
+
+            <div class="form-group">
+                <label for="no2">Number 2 : </label>
+                <input type="text" class="form-control" id="no2" name="no2" value="@Model.no2" />
+            </div>
+
+            <div class="form-group">
+                <label for="total">Total : </label>
+                <input type="text" class="form-control" id="tot" name="tot" value="@Model.tot" />
+            </div>
+
+            <button type="submit" class="btn btn-info" id="add" value="add" name="calculate">+</button>
+            <button type="submit" class="btn btn-danger" id="min" value="min" name="calculate">-</button>
+            <button type="submit" class="btn btn-warning" id="sub" value="sub" name="calculate">*</button>
+            <button type="submit" class="btn btn-default" id="divv" value="divv" name="calculate">/</button>
+
+        }
+    </div>
+
+</body>
+</html>
+

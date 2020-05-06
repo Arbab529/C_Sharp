@@ -1,0 +1,76 @@
+D:\C#\Calculator MVC\Calculator MVC\bin\Calculator MVC.dll.config
+D:\C#\Calculator MVC\Calculator MVC\bin\Calculator MVC.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\Calculator MVC.pdb
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\csc.exe
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\csc.exe.config
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\csc.rsp
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\csi.exe
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\csi.exe.config
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\csi.rsp
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.Managed.Core.targets
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.AppContext.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Collections.Immutable.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Console.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.IO.Compression.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.IO.FileSystem.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.IO.Pipes.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.AccessControl.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.Claims.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.ValueTuple.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Xml.XPath.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\vbc.exe
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\vbc.exe.config
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\vbc.rsp
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\VBCSCompiler.exe
+D:\C#\Calculator MVC\Calculator MVC\bin\roslyn\VBCSCompiler.exe.config
+D:\C#\Calculator MVC\Calculator MVC\bin\Antlr3.Runtime.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\Newtonsoft.Json.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Helpers.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Mvc.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Optimization.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Razor.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.WebPages.Deployment.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.WebPages.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.WebPages.Razor.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\WebGrease.dll
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Helpers.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Mvc.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Optimization.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.Razor.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.WebPages.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.WebPages.Deployment.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\System.Web.WebPages.Razor.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\Newtonsoft.Json.xml
+D:\C#\Calculator MVC\Calculator MVC\bin\Antlr3.Runtime.pdb
+D:\C#\Calculator MVC\Calculator MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\C#\Calculator MVC\Calculator MVC\obj\Debug\Calculator MVC.csprojAssemblyReference.cache
+D:\C#\Calculator MVC\Calculator MVC\obj\Debug\Calculator MVC.csproj.CoreCompileInputs.cache
+D:\C#\Calculator MVC\Calculator MVC\obj\Debug\Calculator MVC.csproj.CopyComplete
+D:\C#\Calculator MVC\Calculator MVC\obj\Debug\Calculator MVC.dll
+D:\C#\Calculator MVC\Calculator MVC\obj\Debug\Calculator MVC.pdb
