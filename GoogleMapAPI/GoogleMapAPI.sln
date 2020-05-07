@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapAPI", "GoogleMapAPI\GoogleMapAPI.csproj", "{86A1C549-E2F5-4896-9507-44ED26D80B31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A1C549-E2F5-4896-9507-44ED26D80B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A1C549-E2F5-4896-9507-44ED26D80B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A1C549-E2F5-4896-9507-44ED26D80B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A1C549-E2F5-4896-9507-44ED26D80B31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E0D06F-C093-44E2-A315-636CC9F76969}
+	EndGlobalSection
+EndGlobal
